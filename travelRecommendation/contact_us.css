@@ -1,0 +1,108 @@
+* {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 0rem;
+}
+
+nav h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    font-style: italic;
+    padding-left: 5rem;
+}
+
+ul {
+    padding-top: .5rem;
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: row;
+}
+
+ul input {
+    margin-left: 10rem;
+    
+}
+
+li a {
+    padding-left: 3rem;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 20px;
+}
+li a:hover {
+    font-size: 22px;
+    color: black;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.social_media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+.social_media img {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    display: flex;
+}
+
+.text h1 {
+    font-size: 70px;
+}
+p {
+    margin-left: 10px;
+}
+
+form {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.396);
+}
+
+form input, form textarea {
+    border-radius: 5px;
+    background-color: rgba(166, 202, 234, 0.864);
+    color: rgba(0, 0, 0, 0.609);
+    
+}
+
+button {
+    background-color: blueviolet;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 2rem;
+    
+}
+button:hover {
+    background-color: white;
+    color: black;
+    offset: 10;
+    cursor: pointer;
+    transform: translateY(-10px);
+}

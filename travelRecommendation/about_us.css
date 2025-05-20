@@ -1,0 +1,111 @@
+* {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 0rem;
+}
+
+nav h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    font-style: italic;
+    padding-left: 5rem;
+}
+
+ul {
+    padding-top: .5rem;
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: row;
+}
+
+ul input {
+    margin-left: 10rem;
+    
+}
+
+li a {
+    padding-left: 3rem;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 20px;
+}
+li a:hover {
+    font-size: 22px;
+    color: black;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+}
+.social_media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+.social_media img {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+h5 {
+    font-size: 20px;
+    color: white;
+}
+
+.team {
+    display: flex;
+    flex-direction: row !important;
+}
+.team h2 {
+    font-size: 55px;
+    margin-left: 5rem;
+    color: white;
+}
+
+.card {
+    margin-left: 10rem;
+    background-color: rgba(0, 0, 0, 0.467);
+    color:white;
+    width: 15rem;
+}
+
+.card h5, .card p {
+    padding-left: 20px;
+}
+
+button {
+    background-color: blueviolet;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 20px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    offset: 10;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
